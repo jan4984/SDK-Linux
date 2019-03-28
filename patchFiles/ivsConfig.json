@@ -1,0 +1,45 @@
+{
+    "cblAuthDelegate": {
+        "databaseFilePath": "/home/pi/ivs/auth.db"
+    },
+    "deviceInfo": {
+        "deviceSerialNumber": "xxxxx iflyos rpi test",
+        "clientId": "xxxxxxxxxxxx"
+    },
+    "deviceSettings": {
+        "databaseFilePath": "/home/pi/ivs/devSet.db"
+    },
+    "capabilitiesDelegate": {
+    },
+    "miscDatabase": {
+        "databaseFilePath": "/home/pi/ivs/micd.db"
+    },
+    "alertsCapabilityAgent": {
+        "databaseFilePath": "/home/pi/ivs/cap.db"
+    },
+    "settings": {
+        "databaseFilePath": "/home/pi/ivs/set.db",
+        "defaultAVSClientSettings": {
+            "locale": "cn-ZH"
+        }
+    },
+    "bluetooth": {
+        "databaseFilePath": "/home/pi/ivs/bt.db"
+    },
+    "certifiedSender": {
+        "databaseFilePath": "/home/pi/ivs/cert.db"
+    },
+    "libcurlUtils":{
+        "CURLOPT_CAINFO":"/home/pi/ivs/cacert.pem"
+    },
+    "notifications": {
+        "databaseFilePath": "/home/pi/ivs/notf.db"
+    },
+    "sampleApp": {
+        "displayCardsSupported": true,
+        "firmwareVersion": 100
+    },
+    "gstreamerMediaPlayer": {
+        "audioSink": "alsasink"
+    }
+}
